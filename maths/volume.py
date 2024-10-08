@@ -516,9 +516,7 @@ def main():
     print(f"Spherical cap: {vol_spherical_cap(1, 2) = }")  # ~= 5.24
     print(f"Spheres intersetion: {vol_spheres_intersect(2, 2, 1) = }")  # ~= 21.21
     print(f"Spheres union: {vol_spheres_union(2, 2, 1) = }")  # ~= 45.81
-    print(
-        f"Hollow Circular Cylinder: {vol_hollow_circular_cylinder(1, 2, 3) = }"
-    )  # ~= 28.3
+    print(f"Hollow Circular Cylinder: {vol_hollow_circular_cylinder(1, 2, 3) = }")  # ~= 28.3
     print(f"Icosahedron: {vol_icosahedron(2.5) = }")  # ~=34.09
 
 
